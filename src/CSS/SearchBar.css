@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@300&display=swap");
+
+.container {
+  width: 96vw;
+  height: 15vh;
+  background-color: rgb(2, 3, 129);
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.container-option {
+  width: 50vw;
+}
+
+.container-title,
+.container-type {
+  display: inline-block;
+  display: inline-block;
+  font-size: 1.9rem;
+  margin-right: 3vw;
+  margin-left: -1vw;
+  margin-top: -1vh;
+}
+
+.container-input-search {
+  padding: 1rem;
+  border: none;
+  width: 25vw;
+  height: 2vh;
+  background-color: deepskyblue;
+  color: #e2dede;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.3rem;
+  margin-top: 3vh;
+  text-align: center;
+}
+
+.container-radio-input {
+  width: 1.5vw;
+  height: 1.5vh;
+  margin-right: 1vw;
+}
+
+.container-label {
+  display: inline-block;
+  font-size: 1.5rem;
+  color: gray;
+  margin-right: 3vw;
+}
+
+.container-button {
+  width: 20vw;
+}
+
+.container-button > button,
+.container-favButton > button {
+  border: none;
+  width: 14vw;
+  background-color: deepskyblue;
+  height: 9vh;
+  color: #e2dede;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.3rem;
+}

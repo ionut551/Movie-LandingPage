@@ -1,0 +1,19 @@
+.display-card {
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+
+.error {
+  font-family: sans-serif;
+  margin-top: 30vh;
+  font-size: 3rem;
+  color: rgb(2, 3, 129);
+  font-style: italic;
+  font-weight: 600;
+}

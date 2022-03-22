@@ -1,0 +1,41 @@
+.info-wrapper {
+  width: 30vw;
+  margin-top: 2vh;
+  display: flex;
+  gap: 0.5vw;
+}
+
+.info-wrapper:hover {
+  box-shadow: 0px 4px 35px #a8acb0, 0px 4px 35px 0px #a8acb0;
+}
+
+.remove-button {
+  background-color: gray;
+  position: absolute;
+  border: none;
+  opacity: 0.8;
+  height: 6vh;
+  width: 3vw;
+  font-size: 1.5rem;
+}
+
+.remove-button:hover {
+  border: 1px solid black;
+  font-size: 1.7rem;
+}
+
+.remove-button:active {
+  background-color: black;
+}
+
+.info-wrapper:hover > .remove-button {
+  display: inline-block;
+}
+
+.info-wrapper:not(:hover) > .remove-button {
+  display: none;
+}
+
+.info-wrapper-properties {
+  position: relative;
+}

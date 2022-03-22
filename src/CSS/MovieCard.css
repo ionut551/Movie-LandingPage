@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@300&display=swap");
+
+.card {
+  width: 20vw;
+  height: 62vh;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  position: relative;
+}
+
+.card-image {
+  width: 30vh;
+  height: 45vh;
+  object-fit: contain;
+  margin-top: 1vh;
+}
+
+.card:hover {
+  box-shadow: 0px 4px 35px #a8acb0, 0px 4px 35px 0px #a8acb0;
+}
+
+.card:hover > .card-moreDetails {
+  display: inline-block;
+}
+
+.card:not(:hover) > .card-moreDetails {
+  display: none;
+}
+
+.card-moreDetails {
+  border: none;
+  background-color: deepskyblue;
+  color: white;
+  width: 7vw;
+  height: 5vh;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.1rem;
+  margin-bottom: 1vh;
+}

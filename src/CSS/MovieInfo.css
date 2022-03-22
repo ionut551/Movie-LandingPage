@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@300&display=swap");
+
+.container-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: gray;
+  opacity: 0.7;
+  z-index: 1;
+}
+
+.close-modal {
+  border: none;
+  position: fixed;
+  left: 90vw;
+  z-index: 3;
+  top: 3vh;
+  width: 5vw;
+  height: 7vh;
+  font-size: 1.7rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  background-color: deepskyblue;
+  color: white;
+}
+
+.close-modal:hover {
+  border: 1px solid rgb(2, 3, 129);
+  font-size: 2rem;
+}
+
+.container-info {
+  position: fixed;
+  top: 2vh;
+  left: 20%;
+  border: 0;
+  z-index: 2;
+  font-family: "Raleway", sans-serif;
+  background-color: white;
+  width: 60vw;
+  height: 95vh;
+  overflow: overlay;
+}
+
+.container-addButton {
+  position: absolute;
+  top: 1vh;
+  left: 52.4vw;
+  border: none;
+  background-color: gray;
+  width: 7vw;
+  height: 15vh;
+  font-size: 5rem;
+  font-weight: 500;
+  font-family: auto;
+  opacity: 0.8;
+}
+
+.container-addButton:hover {
+  border: 2px solid black;
+  font-size: 6rem;
+}
+
+.container-addButton:active {
+  background-color: black;
+}
+
+.container-info-old-image {
+  margin-top: 2vh;
+  height: 45vh;
+}
+
+.container-info-old-title-year {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.container-info-new > p {
+  text-align: left;
+  margin-left: 2vw;
+  font-weight: 600;
+  font-size: 1.3rem;
+  color: rgb(2, 3, 129);
+  margin-right: 2vw;
+}
+
+p > span {
+  font-weight: normal;
+  font-size: 1em;
+  color: black;
+}
