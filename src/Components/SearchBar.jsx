@@ -37,7 +37,7 @@ export function SearchBar(props) {
     }
 
     let search = titletRef.current.value;
-    let url = `http://www.omdbapi.com/?s=${search}&type=${searchType}&apikey=f01bff5d`;
+    let url = `https://www.omdbapi.com/?s=${search}&type=${searchType}&apikey=f01bff5d`;
     let result = await fetchData(url);
     props.setMovies(result.Search);
   }
